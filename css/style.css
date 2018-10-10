@@ -1,146 +1,201 @@
-body{
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 15px;
-   line-height: 1.5;
-   padding: 0;
-   margin: 0;
-   background-color: #f4f4f4;
-}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-/*global*/
-.container{
-  width: 80%;
-  margin: auto;
-  overflow: hidden;
-}
-
-ul{
- padding: 0;
- margin: 0;
-
-}
-
-.button_1{
-  height: 38px;
-  color: #ffffff;
-  padding-left: 20px;
-  padding-right: 20px;
-  border: 0;
-  background: #000000;
-}
-
-/*local*/
-header{
-background: #4BB5F5;
-color: #ffffff;
-padding-top: 30px;
-min-height: 70px;
-border-bottom: #000000 3px solid;
-}
-
-header a{
-  color: #ffffff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 16px;
-}
-
-header li{
-  float: left;
-  display: inline;
-  padding: 0 20px 0 20px;
-}
-
-header #branding{
-  float: left;
-}
-
-header #branding h1{
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
-
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
-
-header nav{
-  float: right;
-  margin-top: 10px;
-
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
-
-header .highlight,header .current a{
-  color: #000000;
-  font-weight: bold;
+body {
+  line-height: 1;
 }
-
-header a:hover{
-  color: #cccccc;
-  font-weight: bold;
+ol,
+ul {
+  list-style: none;
 }
-
-/*showcase*/
-#showcase{
-  min-height: 700px;
-  background:url('../img/cover.jpg') no-repeat -100px -100px ;
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.container {
+  position: relative;
   text-align: center;
-  color: #ffffff;
+  color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-#showcase h1{
-  margin-top: 250px;
-  margin-bottom: 10px;
-  font-size: 55px;
-
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 75px;
+  width: 20%;
+  margin-bottom: 30;
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: black;
+  font-size: 32px;
+  margin: 32px;
+}
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+.bottom-center {
+  position: absolute;
+  top: 75%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+.image {
+  width: 50px;
+  height: 50px;
+  margin: 16px;
+}
+p {
+  font-family: "Roboto";
 }
 
-#showcase p{
-  font-size: 30px;
-}
-
-/*newsletter*/
-#newsletter {
-  padding: 30px;
-  color: #ffffff;
-  background-color: #4BB5F5;
-}
-
-#newsletter h1{
-  float: left;
-  text-transform: capitalize;
+@keyframes fadein {
+  from {
+    opacity: 0;
   }
-
-#newsletter form{
-  float: right;
-
+  to {
+    opacity: 1;
+  }
+}
+body,
+html {
+  height: 100%;
 }
 
-#newsletter input[type="email"]{
-  padding: 4px;
-  height: 25px;
-  width: 250px;
-}
+.bg {
+  /* The image used */
+  background-image: url("https://github.com/nikilarigela/nikilarigela.github.io/blob/master/IMG_6052.JPG?raw=true");
 
-/*Boxes*/
+  /* Full height */
+  height: 100%;
 
-#boxes{
-  margin-top: 20px;
-
-}
-
-#boxes .box{
-  float: left;
-  width: 30%;
-  text-align: center;
-  padding: 10px;
-}
-
-#boxes .box img{
-  width: 100px;
-  height: 100px;
-}
-
-footer{
-  padding: 20px;
-  margin-top: 20px;
-  text-align: center;
-  background-color: #4BB5F5;
-  color: #ffffff;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

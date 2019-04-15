@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
 import logo from "./animated.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class App extends Component {
   render() {
@@ -18,7 +17,6 @@ class App extends Component {
               currently working on Mobile <br />
               <span class="bottom-line">Application Developement </span>
             </p>
-            <FontAwesomeIcon icon="envelope" color="#ff0" />
           </div>
         </header>
       </div>

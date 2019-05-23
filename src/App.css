@@ -1,5 +1,5 @@
 .App {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Acme", sans-serif;
 }
 
 .App-header {
@@ -41,7 +41,7 @@
 }
 p {
   font-size: 24px;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
 }
 span {
   margin-left: 20px;
@@ -49,4 +49,20 @@ span {
 
 .bottom-line {
   margin-left: 8px;
+}
+
+.social-links {
+  position: relative;
+  flex-direction: row;
+  top: 200px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.social-icon {
+  margin: 0 16px;
+  height: 40px;
+  width: 40px;
+  filter: invert(95%);
 }

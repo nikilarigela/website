@@ -1,14 +1,16 @@
 {
-  "main.css": "/website/static/css/main.908e457b.chunk.css",
-  "main.js": "/website/static/js/main.b1342179.chunk.js",
-  "main.js.map": "/website/static/js/main.b1342179.chunk.js.map",
-  "static/js/1.9865ef58.chunk.js": "/website/static/js/1.9865ef58.chunk.js",
-  "static/js/1.9865ef58.chunk.js.map": "/website/static/js/1.9865ef58.chunk.js.map",
+  "main.css": "/website/static/css/main.57f88c12.chunk.css",
+  "main.js": "/website/static/js/main.e2425d87.chunk.js",
+  "main.js.map": "/website/static/js/main.e2425d87.chunk.js.map",
+  "static/js/1.8775710a.chunk.js": "/website/static/js/1.8775710a.chunk.js",
+  "static/js/1.8775710a.chunk.js.map": "/website/static/js/1.8775710a.chunk.js.map",
   "runtime~main.js": "/website/static/js/runtime~main.df8eefd1.js",
   "runtime~main.js.map": "/website/static/js/runtime~main.df8eefd1.js.map",
+  "static/css/main.57f88c12.chunk.css.map": "/website/static/css/main.57f88c12.chunk.css.map",
   "static/media/animated.jpg": "/website/static/media/animated.fbef15e3.jpg",
-  "static/css/main.908e457b.chunk.css.map": "/website/static/css/main.908e457b.chunk.css.map",
+  "static/media/githubIcon.png": "/website/static/media/githubIcon.8fe708e8.png",
+  "static/media/instagramIcon.png": "/website/static/media/instagramIcon.042d9c57.png",
   "index.html": "/website/index.html",
-  "precache-manifest.44e3823c8d3fd9b8ed7076b9e68bc442.js": "/website/precache-manifest.44e3823c8d3fd9b8ed7076b9e68bc442.js",
+  "precache-manifest.2be9c449fd8fb7608dca97c17ebbfb81.js": "/website/precache-manifest.2be9c449fd8fb7608dca97c17ebbfb81.js",
   "service-worker.js": "/website/service-worker.js"
 }
